@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.406,=F:\КУРСАЧ\Project\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.831,F:\КУРСАЧ\TODO\Unit1.dfm=C:\Users\Zakpi\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.275,F:\КУРСАЧ\TODO\Unit2.dfm=C:\Users\Zakpi\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.275,F:\КУРСАЧ\TODO\Unit2.pas=C:\Users\Zakpi\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.274,=C:\Users\Zakpi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.373,=C:\Users\Zakpi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.831,F:\КУРСАЧ\TODO\Unit1.pas=C:\Users\Zakpi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.951,=F:\КУРСАЧ\Project\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.409,=F:\КУРСАЧ\Project\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.491,=F:\КУРСАЧ\Project\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.988,F:\КУРСАЧ\Project\Unit4.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.494,=F:\КУРСАЧ\Project\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.067,F:\КУРСАЧ\Project\Course.dproj=F:\КУРСАЧ\Project\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.856,=C:\Users\Zakpi\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.609,F:\КУРСАЧ\TODO\Project1.dproj=C:\Users\Zakpi\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.041,F:\КУРСАЧ\Project\Unit5.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.959,=F:\КУРСАЧ\Project\Unit5.pas</Transaction>
+  </Transactions>
+</BorlandProject>

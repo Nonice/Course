@@ -1,0 +1,316 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Form5'
+  ClientHeight = 638
+  ClientWidth = 1125
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Scaled = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object QuickRep1: TQuickRep
+    Left = 0
+    Top = 0
+    Width = 985
+    Height = 825
+    ShowingPreview = False
+    DataSet = DataModule2.ADOQConnnectInfo
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = []
+    Functions.Strings = (
+      'PAGENUMBER'
+      'COLUMNNUMBER'
+      'REPORTTITLE')
+    Functions.DATA = (
+      '0'
+      '0'
+      #39#39)
+    Options = [FirstPageHeader, LastPageFooter]
+    Page.Columns = 1
+    Page.Orientation = poPortrait
+    Page.PaperSize = A4
+    Page.Continuous = False
+    Page.Values = (
+      100.000000000000000000
+      2970.000000000000000000
+      100.000000000000000000
+      2100.000000000000000000
+      100.000000000000000000
+      100.000000000000000000
+      0.000000000000000000)
+    PrinterSettings.Copies = 1
+    PrinterSettings.OutputBin = Auto
+    PrinterSettings.Duplex = False
+    PrinterSettings.FirstPage = 0
+    PrinterSettings.LastPage = 0
+    PrinterSettings.UseStandardprinter = False
+    PrinterSettings.UseCustomBinCode = False
+    PrinterSettings.CustomBinCode = 0
+    PrinterSettings.ExtendedDuplex = 0
+    PrinterSettings.UseCustomPaperCode = False
+    PrinterSettings.CustomPaperCode = 0
+    PrinterSettings.PrintMetaFile = False
+    PrinterSettings.MemoryLimit = 1000000
+    PrinterSettings.PrintQuality = 0
+    PrinterSettings.Collate = 0
+    PrinterSettings.ColorOption = 0
+    PrintIfEmpty = True
+    SnapToGrid = True
+    Units = MM
+    Zoom = 100
+    PrevFormStyle = fsNormal
+    PreviewInitialState = wsNormal
+    PreviewWidth = 500
+    PreviewHeight = 500
+    PrevInitialZoom = qrZoomToFit
+    PreviewDefaultSaveType = stPDF
+    PreviewLeft = 0
+    PreviewTop = 0
+    object TitleBand1: TQRBand
+      Left = 38
+      Top = 38
+      Width = 909
+      Height = 66
+      AlignToBottom = False
+      TransparentBand = False
+      ForceNewColumn = False
+      ForceNewPage = False
+      Size.Values = (
+        174.625000000000000000
+        2405.062500000000000000)
+      PreCaluculateBandHeight = False
+      KeepOnOnePage = False
+      BandType = rbTitle
+      object QRLabel1: TQRLabel
+        Left = 8
+        Top = 4
+        Width = 230
+        Height = 49
+        Size.Values = (
+          129.645833333333300000
+          21.166666666666670000
+          10.583333333333330000
+          608.541666666666700000)
+        XLColumn = 0
+        XLNumFormat = nfGeneral
+        ActiveInPreview = False
+        Alignment = taCenter
+        AlignToBand = False
+        Caption = #1057#1087#1080#1089#1086#1082' '#1055#1086#1076#1082#1083#1102#1095#1077#1085#1080#1081
+        Color = clWhite
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -21
+        Font.Name = 'Arial'
+        Font.Style = [fsBold, fsUnderline]
+        ParentFont = False
+        Transparent = False
+        ExportAs = exptText
+        WrapStyle = BreakOnSpaces
+        VerticalAlignment = tlTop
+        FontSize = 16
+      end
+    end
+    object QRShape1: TQRShape
+      Left = 38
+      Top = 81
+      Width = 909
+      Height = 17
+      Size.Values = (
+        44.979166666666670000
+        100.541666666666700000
+        214.312500000000000000
+        2405.062500000000000000)
+      XLColumn = 0
+      XLNumFormat = nfGeneral
+      ActiveInPreview = False
+      Shape = qrsHorLine
+      VertAdjust = 0
+    end
+    object ColumnHeaderBand1: TQRBand
+      Left = 38
+      Top = 104
+      Width = 909
+      Height = 64
+      AlignToBottom = False
+      TransparentBand = False
+      ForceNewColumn = False
+      ForceNewPage = False
+      Size.Values = (
+        169.333333333333300000
+        2405.062500000000000000)
+      PreCaluculateBandHeight = False
+      KeepOnOnePage = False
+      BandType = rbColumnHeader
+    end
+    object DetailBand1: TQRBand
+      Left = 38
+      Top = 168
+      Width = 909
+      Height = 64
+      AlignToBottom = False
+      TransparentBand = False
+      ForceNewColumn = False
+      ForceNewPage = False
+      Size.Values = (
+        169.333333333333300000
+        2405.062500000000000000)
+      PreCaluculateBandHeight = False
+      KeepOnOnePage = False
+      BandType = rbDetail
+      object QRShape8: TQRShape
+        Left = 38
+        Top = 144
+        Width = 1045
+        Height = 17
+        Size.Values = (
+          44.979166666666670000
+          100.541666666666700000
+          381.000000000000000000
+          2764.895833333333000000)
+        XLColumn = 0
+        XLNumFormat = nfGeneral
+        ActiveInPreview = False
+        Shape = qrsHorLine
+        VertAdjust = 0
+      end
+      object QRShape9: TQRShape
+        Left = 38
+        Top = 144
+        Width = 1045
+        Height = 17
+        Size.Values = (
+          44.979166666666670000
+          100.541666666666700000
+          381.000000000000000000
+          2764.895833333333000000)
+        XLColumn = 0
+        XLNumFormat = nfGeneral
+        ActiveInPreview = False
+        Shape = qrsHorLine
+        VertAdjust = 0
+      end
+    end
+    object QRShape3: TQRShape
+      Left = 38
+      Top = 145
+      Width = 909
+      Height = 17
+      Size.Values = (
+        44.979166666666670000
+        100.541666666666700000
+        383.645833333333300000
+        2405.062500000000000000)
+      XLColumn = 0
+      XLNumFormat = nfGeneral
+      ActiveInPreview = False
+      Shape = qrsHorLine
+      VertAdjust = 0
+    end
+    object QRShape2: TQRShape
+      Left = 318
+      Top = 97
+      Width = 97
+      Height = 128
+      Size.Values = (
+        338.666666666666700000
+        841.375000000000000000
+        256.645833333333300000
+        256.645833333333300000)
+      XLColumn = 0
+      XLNumFormat = nfGeneral
+      ActiveInPreview = False
+      Shape = qrsVertLine
+      VertAdjust = 0
+    end
+    object QRShape4: TQRShape
+      Left = 590
+      Top = 97
+      Width = 97
+      Height = 104
+      Size.Values = (
+        275.166666666666700000
+        1561.041666666667000000
+        256.645833333333300000
+        256.645833333333300000)
+      XLColumn = 0
+      XLNumFormat = nfGeneral
+      ActiveInPreview = False
+      Shape = qrsVertLine
+      VertAdjust = 0
+    end
+    object QRShape5: TQRShape
+      Left = 782
+      Top = 96
+      Width = 97
+      Height = 128
+      Size.Values = (
+        338.666666666666700000
+        2069.041666666667000000
+        254.000000000000000000
+        256.645833333333300000)
+      XLColumn = 0
+      XLNumFormat = nfGeneral
+      ActiveInPreview = False
+      Shape = qrsVertLine
+      VertAdjust = 0
+    end
+    object QRShape6: TQRShape
+      Left = 590
+      Top = 97
+      Width = 97
+      Height = 104
+      Size.Values = (
+        275.166666666666700000
+        1561.041666666667000000
+        256.645833333333300000
+        256.645833333333300000)
+      XLColumn = 0
+      XLNumFormat = nfGeneral
+      ActiveInPreview = False
+      Shape = qrsVertLine
+      VertAdjust = 0
+    end
+    object QRShape7: TQRShape
+      Left = 590
+      Top = 97
+      Width = 97
+      Height = 128
+      Size.Values = (
+        338.666666666666700000
+        1561.041666666667000000
+        256.645833333333300000
+        256.645833333333300000)
+      XLColumn = 0
+      XLNumFormat = nfGeneral
+      ActiveInPreview = False
+      Shape = qrsVertLine
+      VertAdjust = 0
+    end
+    object QRShape10: TQRShape
+      Left = 38
+      Top = 207
+      Width = 909
+      Height = 17
+      Size.Values = (
+        44.979166666666670000
+        100.541666666666700000
+        547.687500000000000000
+        2405.062500000000000000)
+      XLColumn = 0
+      XLNumFormat = nfGeneral
+      ActiveInPreview = False
+      Shape = qrsHorLine
+      VertAdjust = 0
+    end
+  end
+end
